@@ -17,9 +17,9 @@ import {enableLoggerNamePrefix} from '../lib/loglevel-ts'
 enableLoggerNamePrefix()
 
 let logger = log.getLogger('foo')
-logger.info('hello')
+logger.info('hello ', 1234)
 
-// result: [foo] hello
+// result: [foo] hello 1234
 ```
 
 ## To do
