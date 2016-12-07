@@ -1,5 +1,5 @@
 # loglevel-ts
-- Example of loglevel usage with typescript and webpack
+- Loglevel usage with typescript and webpack
 - Added feature: prefix messages with logger name
 
 ## Installation
