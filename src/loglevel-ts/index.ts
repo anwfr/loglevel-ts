@@ -1,0 +1,1 @@
+export {enableLoggerNamePrefix} from './loglevel'

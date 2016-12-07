@@ -1,2 +1,29 @@
 # loglevel-ts
-Minimal lightweight logging for Typescript, adding reliable log level methods to wrap any available console.log methods
+- Example of loglevel usage with typescript and webpack
+- Added feature: prefix messages with logger name
+
+## Installation
+
+```
+npm install loglevel @types/loglevel
+```
+
+## Usage
+
+```javascript
+import * as log from 'loglevel'
+import {enableLoggerNamePrefix} from '../lib/loglevel-ts'
+
+enableLoggerNamePrefix()
+
+let logger = log.getLogger('foo')
+logger.info('hello')
+
+// result: [foo] hello
+```
+
+## To do
+- package as NPM module
+
+## Credits
+- [loglevel](https://github.com/pimterry/loglevel)
