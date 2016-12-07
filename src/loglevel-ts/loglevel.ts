@@ -1,6 +1,6 @@
 import * as log from 'loglevel'
 
-export function enableLoggerNamePrefix() {
+export function enableLoggerPrefix() {
     let originalLoggerFactory = log.methodFactory;
     let myLog = log // ignore assignment warning
     myLog.methodFactory = function (methodName, logLevel, loggerName) {

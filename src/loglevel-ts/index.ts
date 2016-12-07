@@ -1,1 +1,1 @@
-export {enableLoggerNamePrefix} from './loglevel'
+export {enableLoggerPrefix} from './loglevel'
