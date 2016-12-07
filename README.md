@@ -14,6 +14,7 @@ npm install loglevel @types/loglevel
 import * as log from 'loglevel'
 import {enableLoggerNamePrefix} from '../lib/loglevel-ts'
 
+// optional: enable prefixing messages with logger name
 enableLoggerNamePrefix()
 
 let logger = log.getLogger('foo')
