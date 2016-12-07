@@ -1,6 +1,6 @@
 # loglevel-ts
-- Loglevel usage with typescript and webpack
-- Added feature: prefix messages with logger name
+- Typescript and webpack
+- Prefix messages with logger name
 
 ## Installation
 
